@@ -471,6 +471,7 @@ iframe {
   display: flex;
   justify-content: space-between;
   margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 .icons a {
   color: white;
