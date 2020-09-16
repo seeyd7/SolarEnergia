@@ -540,6 +540,14 @@ iframe {
 .article-text p {
   font-size: 20px;
 }
+.articles {
+  padding-top: 20%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 /* Article site */
 
 /* Media */
@@ -635,6 +643,11 @@ article {
 }
 .slider {
   width: 43.2%;
+}
+.articles {
+  padding-top: 1%;
+  margin: 0;
+  flex-direction: row;
 }
 }
 @media screen and (min-width: 360px) {
