@@ -39,6 +39,12 @@ Version: 1.0
     color: #fff;
     outline: none;
     display: none;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.5s;
+  }
+  .goTop:hover {
+    line-height: 20px;
   }
   .myborder {
     width: 25vw;
