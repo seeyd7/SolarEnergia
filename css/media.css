@@ -96,9 +96,15 @@
   .info p {
     font-size: 13px;
   }
+  .desc p {
+    font-size: 13px;
+  }
 }
 @media screen and (min-width: 430px) {
   .info p {
+    font-size: 16px;
+  }
+  .desc p {
     font-size: 16px;
   }
 }
@@ -106,9 +112,16 @@
   .info p {
     font-size: 19px;
   }
+  .desc p {
+    font-size: 19px;
+  }
+  
 }
 @media screen and (min-width: 900px) {
   .info p {
+    font-size: 21px;
+  }
+  .desc p {
     font-size: 21px;
   }
   .icons {
