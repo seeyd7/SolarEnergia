@@ -7,7 +7,8 @@ const menuToggler = document.querySelector(".menu-toggler");
 addEventListener("scroll", () => {
 	let scroll = this.scrollY;
 	if(scroll > menu.clientHeight) {
-		go2Top.style.opacity = 1;
+    go2Top.style.opacity = 1;
+    go2Top.style.lineHeight = "40px";
 		go2Top.style.cursor = "pointer";
 		console.log(go2Top.style.cursor);
 	} else {
