@@ -18,7 +18,7 @@ addEventListener("scroll", () => {
 })
 
 go2Top.addEventListener("click", () => {
-	if(go2Top.style.opacity != 1) window.scrollTo(0, 0);
+	if(go2Top.style.opacity != 0) window.scrollTo(0, 0);
 })
 
 menuToggler.addEventListener("click", () => {
