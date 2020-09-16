@@ -46,10 +46,10 @@ Version: 1.0
   .goTop:hover {
     line-height: 20px;
   }
-  main span,aside span, .gallery span, .contact span {
+  main span,aside span, .gallery h1, .contact span {
     font-size: 35px;
   }
-  .gallery span {
+  .gallery h1 {
     margin-top: 2%;
   }
   .myborder {
