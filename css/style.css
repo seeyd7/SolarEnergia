@@ -503,4 +503,151 @@ iframe {
 }
 /* Footer */
 
-/* Blog */
+/* Media */
+@media screen and (max-width: 980px){
+  .home h1 {
+    font-size: 50px;
+  }
+  .menu-toggler{
+    display: block;
+  }
+  nav {
+    position: fixed;
+  }
+  .navbar-menu{
+    position: fixed;
+    height: 100vh;
+    width: 75%;
+    background-color: #353b48;
+    top: 0;
+    right: -100%;
+    max-width: 400px;
+    padding: 80px 50px;
+    transition: .3s linear;
+    z-index: 999;
+  }
+  .navbar-menu a{
+    display: block;
+    font-size: 30px;
+    margin: 30px 0;
+  }
+  .menu-toggler {
+    position: fixed;
+    right: 5%;
+  }
+  .navbar-menu.active{
+    right: 0;
+  }
+  .menu-toggler.active span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 4px;
+  }
+  .menu-toggler.active span:nth-child(2){
+    opacity: 0;
+  }
+  .menu-toggler.active span:nth-child(3){
+    transform: rotate(45deg);
+    bottom: 14px;
+  }
+}
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to { 
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -30px, 0);
+      }
+
+  70% {
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+      transform: translate3d(0, -4px, 0);
+  }
+}
+@media screen and (min-width: 1024px) {
+.energy {
+  flex-direction: row;
+  text-align: unset !important;
+}
+.right {
+  flex-direction: row-reverse;
+}
+}
+@media screen and (min-width: 1250px){
+article {
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.article-content {
+  margin-top: 4%;
+  width: 45%;
+}
+.slider {
+  width: 43.2%;
+}
+}
+@media screen and (min-width: 360px) {
+.info p {
+  font-size: 13px;
+}
+.desc p {
+  font-size: 13px;
+}
+}
+@media screen and (min-width: 430px) {
+.info p {
+  font-size: 16px;
+}
+.desc p {
+  font-size: 16px;
+}
+}
+@media screen and (min-width: 600px) {
+.info p {
+  font-size: 19px;
+}
+.desc p {
+  font-size: 19px;
+}
+
+}
+@media screen and (min-width: 900px) {
+.info p {
+  font-size: 21px;
+}
+.desc p {
+  font-size: 21px;
+}
+.icons {
+  width: 40vw;
+}
+}
+@media screen and (min-width: 1030px) {
+.contact-form {
+  margin-top: 2%;
+}
+.right-info-content {
+  font-size: 1.4em;
+}
+}
+@media screen and (min-width: 1450px) {
+.contact-cards {
+  flex-direction: row;
+}
+.info-holder {
+  width: calc(30% - 20px);
+}
+}
+/* Media */
