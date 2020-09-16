@@ -1,0 +1,27 @@
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+aside {
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}
+.gallery {
+    grid-area: gallery;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "gallery"
+    "footer";
+    grid-template-columns: 1fr;
+    font-size: 16pt;
+}
