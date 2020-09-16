@@ -13,6 +13,12 @@ footer {
 .gallery {
     grid-area: gallery;
 }
+.contact {
+    grid-area: contact;
+}
+.contact-form {
+    grid-area: contact-form;
+}
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -21,6 +27,8 @@ footer {
     "main"
     "aside"
     "gallery"
+    "contact"
+    "contact-form"
     "footer";
     grid-template-columns: 1fr;
     font-size: 16pt;
