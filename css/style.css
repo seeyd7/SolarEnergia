@@ -396,6 +396,9 @@ article {
   background: rgb(28, 190, 74);
 }
 .contact-form{
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
   width: 98%;
   display: flex;
   justify-content: space-between;
