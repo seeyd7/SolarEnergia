@@ -115,17 +115,19 @@
     width: 40vw;
   }
 }
-@media screen and (min-width: 1000px) {
-  .contact-cards {
-    flex-direction: row;
-  }
-  .info-holder {
-    width: calc(30% - 20px);
-  }
+@media screen and (min-width: 1030px) {
   .contact-form {
     margin-top: 2%;
   }
   .right-info-content {
     font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .contact-cards {
+    flex-direction: row;
+  }
+  .info-holder {
+    width: calc(30% - 20px);
   }
 }

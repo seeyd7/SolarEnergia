@@ -364,13 +364,15 @@ article {
   flex-direction: row;
   width: 90%;
   height: 160px;
-  background-color: #353b48;
+  background-color: white;
   color: #fff;
   text-align: center;
   border-radius: 4px;
   cursor: pointer;
   transition: .3s linear;
   margin-top: 3%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
 }
 .left-info-content {
  background: rgb(18, 134, 51);
@@ -381,10 +383,10 @@ article {
  justify-content: center;
  align-items: center;
  transition: .4s;
+ border-radius: 50vw;
 }
 .right-info-content {
-  font-size: 0.8em;
- background: white;
+ font-size: 0.8em;
  color: black;
  width: 70%;
  display: flex;
