@@ -41,7 +41,7 @@ Version: 1.0
     display: none;
   }
   .myborder {
-    width: 10%;
+    width: 25vw;
     height: 8px;
     background: rgb(18, 134, 51);
     margin: 2% auto;
@@ -194,6 +194,12 @@ main {
 }
 .desc {
   margin: 4%;
+}
+.desc a {
+  color: rgb(18, 134, 51);
+}
+.desc a:hover {
+  color: rgb(28, 190, 74);
 }
 main img {
   width: 250px;
