@@ -4,6 +4,8 @@ const menu = document.querySelector("#menu");
 const navMenu = document.querySelector(".navbar-menu");
 const menuToggler = document.querySelector(".menu-toggler");
 
+const navbar = document.querySelector("nav");
+
 addEventListener("scroll", () => {
 	let scroll = this.scrollY;
 	if(scroll > menu.clientHeight) {
@@ -11,9 +13,13 @@ addEventListener("scroll", () => {
     go2Top.style.lineHeight = "40px";
 		go2Top.style.cursor = "pointer";
 		console.log(go2Top.style.cursor);
+	navbar.style.height = "8vh";
+	navbar.style.backgroundColor = "rgba(0, 0, 0, 0.75)"
 	} else {
 		go2Top.style.opacity = 0;
 		go2Top.style.cursor = "default";
+		navbar.style.height = "10vh";
+		navbar.style.backgroundColor = "rgba(0, 0, 0, 0.5)"
 		console.log(go2Top.style.cursor);
 	}
 })
